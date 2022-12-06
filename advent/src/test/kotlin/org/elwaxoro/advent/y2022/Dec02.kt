@@ -2,7 +2,7 @@ package org.elwaxoro.advent.y2022
 
 import org.elwaxoro.advent.PuzzleDayTester
 
-class Dec02 : PuzzleDayTester(2, 2022) {
+class Dec02: PuzzleDayTester(2, 2022) {
 
     override fun part1(): Any = rockPaperScissors()
             .map { it.map { play -> StratGuide.valueOf(play).displayName } }
